@@ -46,7 +46,7 @@ function EventForm({ method, event }) {
           type="url"
           name="image"
           required
-          defaultValue={event ? event.image : ' '}
+          defaultValue={event ? event.image : ''}
         />
       </p>
       <p>
